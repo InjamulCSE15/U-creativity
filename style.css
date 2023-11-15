@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+    
+#nav {
+    position: fixed;
+    background: #1b1b1b;
+    width: 100%;
+    padding: 10px 0;
+  }
+
+  #menu {
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  #menu ul {
+    display: inline-flex;
+  }
+  #menu ul li {
+    list-style: none;
+    margin-left: 7px;
+  }
+
+  #menu a{
+    text-decoration: none;
+  }
+
+  #logo a {
+    font-size: 35px;
+    font-weight: 600;
+  }
+
+  #menu ul li a {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 10px 20px;
+    border-radius: 5px;    
+  }
+
+  #menu ul li a:hover {
+    background-color: #fff;
+    color: #000;
+  }
+
+  #image {
+    background: url("Imgs/img.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+  }
+
+  #image h1,
+  #image #content-buttons {
+    text-align: center;
+  }
+
+  #image #content-title {
+    position: absolute;
+    top:20%;
+    left: 30%;
+  }
+  #image #content-buttons {
+    position: absolute;
+    top:50%;
+    left: 40%;
+  }
+
+  #content-buttons button {
+    height: 55px;
+    width: 170px;
+    border-radius: 5px;
+    margin: 0 10px;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 10px;
+    cursor: pointer;
+    outline: none;
+  }
+
+  #learn-button {
+    color: #fff;
+    background: none;
+  }
+  
+  #learn-button:hover {
+    color: black;
+    background: #fff;
+  }
+
+  #content-title h1{
+    font-size: 55px;
+    font-weight: 600;
+  }
